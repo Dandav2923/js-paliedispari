@@ -14,6 +14,7 @@ let userChoiceEvenOdd;
 while (userChoiceEvenOdd != 'pari' && userChoiceEvenOdd != 'dispari') {
     userChoiceEvenOdd = prompt('Scegli pari o dispari');
 }
+
 let userChoiceNumber;
 while (!(userChoiceNumber >= 1 && userChoiceNumber <= 5 && !(isNaN(userChoiceNumber)))){
     userChoiceNumber = parseInt(prompt('Scegli un numero tra 1 e 5'));
